@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="255" started-at="2018-10-27T07:17:51Z" finished-at="2018-10-27T07:17:51Z">
+    <groups>
+      <group name="regression">
+        <method signature="group.test3()[pri:0, instance:TestNGGroup.group@59f99ea]" name="test3" class="TestNGGroup.group"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="group.test2()[pri:0, instance:TestNGGroup.group@59f99ea]" name="test2" class="TestNGGroup.group"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="group.test1()[pri:0, instance:TestNGGroup.group@59f99ea]" name="test1" class="TestNGGroup.group"/>
+        <method signature="group.test2()[pri:0, instance:TestNGGroup.group@59f99ea]" name="test2" class="TestNGGroup.group"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="255" started-at="2018-10-27T07:17:51Z" finished-at="2018-10-27T07:17:51Z">
+      <class name="TestNGGroup.group">
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestNGGroup.group@59f99ea]" name="test1" duration-ms="59" started-at="2018-10-27T07:17:51Z" finished-at="2018-10-27T07:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:TestNGGroup.group@59f99ea]" name="test2" duration-ms="8" started-at="2018-10-27T07:17:51Z" finished-at="2018-10-27T07:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:TestNGGroup.group@59f99ea]" name="test3" duration-ms="8" started-at="2018-10-27T07:17:51Z" finished-at="2018-10-27T07:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- TestNGGroup.group -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
