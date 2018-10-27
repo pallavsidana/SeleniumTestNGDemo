@@ -25,6 +25,7 @@ public class Multibrowser {
 			System.setProperty("webdriver.firefox.driver", "C:\\jars\\browsers\\geckodriver.exe\\");
 			driver=new FirefoxDriver();
 		}
+		
 	}
 		@Test
 			public void Test1() {
