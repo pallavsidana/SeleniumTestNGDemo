@@ -56,7 +56,8 @@
         <version>2.22.1</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>${testngFile}</suiteXmlFile>
+          
+            <suiteXmlFile>testngGrouping</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
